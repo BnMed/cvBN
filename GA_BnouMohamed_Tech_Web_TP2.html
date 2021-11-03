@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire CV</title>
+</head>
+<body>
+    <h2> Remplissez vos informations : </h2>
+<form method="post" action="traitement.php">
+   <p> <strong>genre:</strong>
+       <p><input type="radio" name="sexe" value="homme" id="homme"/> <label for="homme">un homme</label> </p>
+       <p><input type="radio" name="sexe" value="femme" id="homme"/> <label for="femme">une femme</label> </p>
+
+       <label for="Nom" ><strong>Nom</strong> <br/> </label>  <input type="text" name="Nom" id="Nom" />
+       <br />
+       <br />
+       <label for="Prénom"><strong>Prénom :</strong> <br/></label>
+       <input type="text" name="Prénom" id="Prénom" 
+        />
+       
+       <br />
+       <br />
+       <label for="Age"></label><strong>Age:</strong> <br/></label>
+       <input type="number" name="Age" id="Age"  />
+       <br />
+       <br />
+       <label for="Adresse"><strong>Adresse:</strong><br/></label>
+       <input type="text" name="Adresse" id="Adresse" />
+       <br />
+       <br />
+       <label for="CV"><strong>Titre du CV:</strong><br/></label>
+       <input type="CV" name="Prénom" id="CV"    />
+       <br />
+       <br />
+       <label><strong> Description de l'Objectif professionnel :</strong></label><br />
+       <textarea name="obj" id="obj" rows="8" cols="40"></textarea>
+       <br />
+       <br />
+       <label> <strong>Section de Formation et diplôme :</strong></label><br />
+       <textarea name="sect1" id="sect1"   rows="6" cols="40" ></textarea>
+       <br />
+       <br />
+       <label> <strong>Section de compétences techniques:</strong></label><br />
+       <textarea name="sec2" id="sect2" rows="6" cols="40"></textarea>
+       <br />
+       <br />
+       <label><strong> Section de compétences :</strong></label><br />
+       <textarea name="sect3" id="sect3" rows="6" cols="40"></textarea>
+</p>
+<input type="submit" value="Envoyer" />
+
+  
+</form>
+
+</body>
+</html>
+</body>
+</html>
